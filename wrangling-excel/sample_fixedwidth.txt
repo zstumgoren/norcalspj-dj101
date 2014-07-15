@@ -1,0 +1,3 @@
+name        age salary  zip
+Smith, John 25  50000   07001
+Doe, Jane   27  75000   07002
