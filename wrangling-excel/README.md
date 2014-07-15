@@ -93,17 +93,17 @@ To work with filtered data, copy/paste it to new tab. You can sum, apply formula
 ### Pivot tables
 
 Pivot tables let you calculate aggregate numbers across different data attributes. For example, calculate total
-contribution amounts by contributor, or by contrib *and* yy
+contribution amounts by contributor, or by contrib *and* year.
 
 ### Final thoughts
 
 We worked with relatively clean data, but in many cases, you'll spend the majority of time cleaning and/or annotating data to support analysis.
 
-For example, what if we wanted to only analyze contributions from individual donors? This problem becomes really tricky if donor names are not standardized (e.g. misspellings, non-standard capitalization, full name in a single field).
+For example, what if we wanted to only analyze contributions from individual donors? This problem becomes really tricky if donor names are not standardized (e.g. misspellings, non-standard capitalization, full name in a single field, no additional attributes such as employer/address).
 
-Such data quality issues are quite common and require a lot of careful clean-up before analysis can begin.
+Such data quality issues are common and require careful clean-up before analysis can begin.
 
-You can do this in Excel or with more specialized tools such as [OpenRefine](http://openrefine.org/) or [Dedupe](http://datamade.us/civic-apps/dedupe/).
+Excel or more specialized tools such as [OpenRefine](http://openrefine.org/) or [Dedupe](http://datamade.us/civic-apps/dedupe/) can help with such clean-ups.
 
 [cal-access-campfin]: http://cal-access.sos.ca.gov/Campaign/Candidates/
   
