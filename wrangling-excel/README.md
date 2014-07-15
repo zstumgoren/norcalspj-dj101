@@ -2,10 +2,14 @@
 
 ## Reference Links
 
-* [Cal-Access Campaign Finance Candidate data portal][cal-access-campfin]
-* [Brown for Governor 2014 Contributions (Cal-Access)][brown-2014-contribs]
+* Cal-Access
+    * [Candidate data portal][cal-access-campfin]
+    * [data documentation][cal-access-datadict]
+    * [campaign finance forms][cal-access-campfin-forms] ([Form 460][form-460])
+    * [Brown for Gov 2014 Contributions][brown-2014-contribs]
 * [Fair Political Practices Commission][fppc]
-* [FPPC Contribution Limits Chart][fppc-contrib-limits]
+* [FPPC Contribution Limits][fppc-contrib-limits]
+* [My Favorite (Excel) Things](http://extra.twincities.com/car/mj/ExcelClassHandout.pdf), MaryJo Webster
 
 ## Overview
 
@@ -20,7 +24,8 @@ To answer the question, we hunt down [data][brown-2014-contribs], making sure to
 * What are the [state limits on campaign contributions][fppc-contrib-limits]?
 * What are the filing deadlines?
 * Are contributor names standardized?
-* Does Cal-Access perform data validations on certain fields to ensure accuracy of submitted information? E.g. requiring employer information for individual contributors?
+* What do individual fields mean?
+* Does Cal-Access validate data? E.g. requiring employer information for individual contributors?
 
 So you've acquired and vetted some data. Now what?
 
@@ -108,6 +113,12 @@ Excel or more specialized tools such as [OpenRefine](http://openrefine.org/) or 
 [cal-access-campfin]: http://cal-access.sos.ca.gov/Campaign/Candidates/
   
 [brown-2014-contribs]: http://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1333789&session=2013&view=received
+
+[cal-access-datadict]: http://www.sos.ca.gov/prd/cal-access/
+
+[cal-access-campfin-forms]: http://www.sos.ca.gov/prd/campaign-info/forms-instructions/compend-camp-forms.htm
+
+[form-460]: http://www.sos.ca.gov/prd/forms/460.pdf
 
 [fppc]:http://www.fppc.ca.gov/index.php?id=446
 
