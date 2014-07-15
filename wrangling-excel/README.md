@@ -47,9 +47,8 @@ CSV stands for [comma-separated values][wikipedia-csv], but often used generical
 
 ### Importing data
 
-Use *File -> Import*  to open CSVs. This method will normally auto-import files with *.csv* extension, and trigger an Import Wizard for files with *.txt* or other extensions (e.g. *.tsv*).
-
-Import Wizard gives granular control over field delimiters and column types. *This is especially important if Excel's auto-correcting behavior borks you data.* 
+Use *File -> Import*  to open CSVs. This method will trigger an Import Wizard that provides granular 
+control over field delimiters and column types. *This is especially important if Excel's auto-correcting behavior borks you data.* 
 
 For example, in sample.csv, the *zip* code field must be imported as text to prevent leading zeros from being clipped.
 
